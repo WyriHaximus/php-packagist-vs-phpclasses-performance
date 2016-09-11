@@ -1,0 +1,84 @@
+Reading ./composer.json
+Loading config file /home/wyrihaximus/.composer/config.json
+Loading config file /home/wyrihaximus/.composer/auth.json
+Loading config file ./composer.json
+Checked CA file /etc/ssl/certs/ca-certificates.crt: valid
+Executing command (/home/wyrihaximus/Projects/php-packagist-vs-phpclasses-performance/packagist-phpclasses): git branch --no-color --no-abbrev -v
+Reading /home/wyrihaximus/.composer/composer.json
+Loading config file /home/wyrihaximus/.composer/config.json
+Loading config file /home/wyrihaximus/.composer/auth.json
+Loading config file /home/wyrihaximus/.composer/composer.json
+Loading config file /home/wyrihaximus/.composer/auth.json
+Reading /home/wyrihaximus/.composer/auth.json
+Reading /home/wyrihaximus/.composer/vendor/composer/installed.json
+Running 1.2.0 (2016-07-19 01:28:52) with PHP 5.6.18-1+deb.sury.org~trusty+1 on Linux / 3.13.0-35-generic
+[11.0MB/0.00s] Loading composer repositories with package information
+[11.3MB/0.01s] Downloading https://www.phpclasses.org/packages.json
+[23.6MB/1.74s] Writing /home/wyrihaximus/.composer/cache/repo/https---www.phpclasses.org/packages.json into cache
+[29.7MB/1.85s] Downloading https://packagist.org/packages.json
+[29.7MB/1.98s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/packages.json into cache
+[29.8MB/1.98s] Updating dependencies (including require-dev)
+[30.1MB/1.98s] Downloading http://packagist.org/p/provider-2013%24035fbb71c7cd0eefce76c8228cc46d818d1207a4c8916961173d6e3905bd32e8.json
+[34.9MB/2.11s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2013.json into cache
+[35.0MB/2.11s] Downloading http://packagist.org/p/provider-2014%24a3fd36d8b380265470291e6d03c9a32cb5cd0d8653c2a7a24743edaec6a4eadf.json
+[45.2MB/2.36s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2014.json into cache
+[44.7MB/2.37s] Downloading http://packagist.org/p/provider-2015%24dc0e919e64f81416315455f39a71b25d32fbcdc116a79598d0663c598213ea45.json
+[58.0MB/2.61s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2015.json into cache
+[56.6MB/2.63s] Downloading http://packagist.org/p/provider-2015-10%24027cc1a8739be8e0f0a113d6135b9a8b09770bd6ad037747e12bc2de47af87f9.json
+[62.7MB/2.78s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2015-10.json into cache
+[60.3MB/2.80s] Downloading http://packagist.org/p/provider-2016-01%249ea1c6577f486800593e5946aae9de7faf56c5c3964348dd9775c6f914486261.json
+[68.7MB/2.98s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2016-01.json into cache
+[68.2MB/3.00s] Downloading http://packagist.org/p/provider-2016-04%241badaabe682a3e0384a957d84f3c4d56f4afdfa4423fb9073aeacf96115eb04f.json
+[79.2MB/3.22s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2016-04.json into cache
+[77.9MB/3.24s] Downloading http://packagist.org/p/provider-2016-07%24eb67b1966b1c05603694afdfefdcc417697aaafc64c03b2d571fdfe43889287f.json
+[89.1MB/4.99s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2016-07.json into cache
+[87.2MB/5.02s] Downloading http://packagist.org/p/provider-archived%240b4310987a18f285011d5cff3e1b89ca67199b9b3a1160c7d852e64ed0333eec.json
+[88.4MB/5.25s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-archived.json into cache
+[86.3MB/5.28s] Downloading http://packagist.org/p/provider-latest%2434c548ec121f7e09e850cfcc6a45bd436e2a83a34cd0efdaab0bb2bb58702600.json
+[92.7MB/5.91s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-latest.json into cache
+[91.9MB/5.95s] Resolving dependencies through SAT
+[91.9MB/5.95s] Dependency resolution completed in 0.000 seconds
+[91.9MB/5.95s] Analyzed 3579 packages to resolve dependencies
+[91.9MB/5.95s] Analyzed 69 rules to resolve dependencies
+[92.0MB/5.95s]   - Installing phpclasses/zodiacals (1.0.0)
+[92.2MB/5.95s]     Downloading
+[92.2MB/5.95s] Downloading https://www.phpclasses.org/install/package/zodiacals.zip
+[92.3MB/7.53s] 
+[92.3MB/7.53s] Failed: [Composer\Downloader\TransportException] 401: The 'https://www.phpclasses.org/install/package/zodiacals.zip' URL required authentication.
+You must be using the interactive console to authenticate
+
+                                                                                               
+  [Composer\Downloader\TransportException]                                                     
+  The 'https://www.phpclasses.org/install/package/zodiacals.zip' URL required authentication.  
+  You must be using the interactive console to authenticate                                    
+                                                                                               
+
+Exception trace:
+ () at phar:///usr/local/bin/composer/src/Composer/Util/RemoteFilesystem.php:630
+ Composer\Util\RemoteFilesystem->promptAuthAndRetry() at phar:///usr/local/bin/composer/src/Composer/Util/RemoteFilesystem.php:537
+ Composer\Util\RemoteFilesystem->callbackGet() at n/a:n/a
+ file_get_contents() at phar:///usr/local/bin/composer/src/Composer/Util/RemoteFilesystem.php:289
+ Composer\Util\RemoteFilesystem->get() at phar:///usr/local/bin/composer/src/Composer/Util/RemoteFilesystem.php:86
+ Composer\Util\RemoteFilesystem->copy() at phar:///usr/local/bin/composer/src/Composer/Downloader/FileDownloader.php:139
+ Composer\Downloader\FileDownloader->doDownload() at phar:///usr/local/bin/composer/src/Composer/Downloader/FileDownloader.php:91
+ Composer\Downloader\FileDownloader->download() at phar:///usr/local/bin/composer/src/Composer/Downloader/ArchiveDownloader.php:36
+ Composer\Downloader\ArchiveDownloader->download() at phar:///usr/local/bin/composer/src/Composer/Downloader/ZipDownloader.php:65
+ Composer\Downloader\ZipDownloader->download() at phar:///usr/local/bin/composer/src/Composer/Downloader/DownloadManager.php:213
+ Composer\Downloader\DownloadManager->download() at phar:///usr/local/bin/composer/src/Composer/Installer/LibraryInstaller.php:186
+ Composer\Installer\LibraryInstaller->installCode() at phar:///usr/local/bin/composer/src/Composer/Installer/LibraryInstaller.php:90
+ Composer\Installer\LibraryInstaller->install() at phar:///usr/local/bin/composer/src/Composer/Installer/InstallationManager.php:173
+ Composer\Installer\InstallationManager->install() at phar:///usr/local/bin/composer/src/Composer/Installer/InstallationManager.php:160
+ Composer\Installer\InstallationManager->execute() at phar:///usr/local/bin/composer/src/Composer/Installer.php:542
+ Composer\Installer->doInstall() at phar:///usr/local/bin/composer/src/Composer/Installer.php:216
+ Composer\Installer->run() at phar:///usr/local/bin/composer/src/Composer/Command/InstallCommand.php:135
+ Composer\Command\InstallCommand->execute() at phar:///usr/local/bin/composer/vendor/symfony/console/Command/Command.php:259
+ Symfony\Component\Console\Command\Command->run() at phar:///usr/local/bin/composer/vendor/symfony/console/Application.php:844
+ Symfony\Component\Console\Application->doRunCommand() at phar:///usr/local/bin/composer/vendor/symfony/console/Application.php:192
+ Symfony\Component\Console\Application->doRun() at phar:///usr/local/bin/composer/src/Composer/Console/Application.php:231
+ Composer\Console\Application->doRun() at phar:///usr/local/bin/composer/vendor/symfony/console/Application.php:123
+ Symfony\Component\Console\Application->run() at phar:///usr/local/bin/composer/src/Composer/Console/Application.php:104
+ Composer\Console\Application->run() at phar:///usr/local/bin/composer/bin/composer:43
+ require() at /usr/local/bin/composer:24
+
+install [--prefer-source] [--prefer-dist] [--dry-run] [--dev] [--no-dev] [--no-custom-installers] [--no-autoloader] [--no-scripts] [--no-progress] [--no-suggest] [-v|vv|vvv|--verbose] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--ignore-platform-reqs] [--] [<packages>]...
+

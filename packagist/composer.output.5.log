@@ -1,0 +1,55 @@
+Reading ./composer.json
+Loading config file /home/wyrihaximus/.composer/config.json
+Loading config file /home/wyrihaximus/.composer/auth.json
+Loading config file ./composer.json
+Checked CA file /etc/ssl/certs/ca-certificates.crt: valid
+Executing command (/home/wyrihaximus/Projects/php-packagist-vs-phpclasses-performance/packagist): git branch --no-color --no-abbrev -v
+Reading /home/wyrihaximus/.composer/composer.json
+Loading config file /home/wyrihaximus/.composer/config.json
+Loading config file /home/wyrihaximus/.composer/auth.json
+Loading config file /home/wyrihaximus/.composer/composer.json
+Loading config file /home/wyrihaximus/.composer/auth.json
+Reading /home/wyrihaximus/.composer/auth.json
+Reading /home/wyrihaximus/.composer/vendor/composer/installed.json
+Running 1.2.0 (2016-07-19 01:28:52) with PHP 5.6.18-1+deb.sury.org~trusty+1 on Linux / 3.13.0-35-generic
+[10.9MB/0.00s] Loading composer repositories with package information
+[11.3MB/0.01s] Downloading https://packagist.org/packages.json
+[11.3MB/0.14s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/packages.json into cache
+[11.4MB/0.14s] Updating dependencies (including require-dev)
+[11.7MB/0.14s] Downloading http://packagist.org/p/provider-2013%24035fbb71c7cd0eefce76c8228cc46d818d1207a4c8916961173d6e3905bd32e8.json
+[16.4MB/0.31s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2013.json into cache
+[16.6MB/0.31s] Downloading http://packagist.org/p/provider-2014%24a3fd36d8b380265470291e6d03c9a32cb5cd0d8653c2a7a24743edaec6a4eadf.json
+[26.8MB/0.67s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2014.json into cache
+[26.2MB/0.68s] Downloading http://packagist.org/p/provider-2015%24dc0e919e64f81416315455f39a71b25d32fbcdc116a79598d0663c598213ea45.json
+[39.5MB/1.02s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2015.json into cache
+[38.1MB/1.03s] Downloading http://packagist.org/p/provider-2015-10%24027cc1a8739be8e0f0a113d6135b9a8b09770bd6ad037747e12bc2de47af87f9.json
+[44.2MB/1.24s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2015-10.json into cache
+[41.8MB/1.25s] Downloading http://packagist.org/p/provider-2016-01%249ea1c6577f486800593e5946aae9de7faf56c5c3964348dd9775c6f914486261.json
+[50.3MB/1.50s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2016-01.json into cache
+[49.8MB/1.53s] Downloading http://packagist.org/p/provider-2016-04%241badaabe682a3e0384a957d84f3c4d56f4afdfa4423fb9073aeacf96115eb04f.json
+[60.8MB/1.82s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2016-04.json into cache
+[59.4MB/1.84s] Downloading http://packagist.org/p/provider-2016-07%24eb67b1966b1c05603694afdfefdcc417697aaafc64c03b2d571fdfe43889287f.json
+[70.7MB/2.27s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-2016-07.json into cache
+[68.8MB/2.30s] Downloading http://packagist.org/p/provider-archived%240b4310987a18f285011d5cff3e1b89ca67199b9b3a1160c7d852e64ed0333eec.json
+[70.0MB/2.38s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-archived.json into cache
+[67.9MB/2.41s] Downloading http://packagist.org/p/provider-latest%2478f880428c504d7947a6413db062f51187210ae181db2850b6313ddc04037a07.json
+[74.3MB/2.61s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/p-provider-latest.json into cache
+[73.1MB/2.65s] Downloading http://packagist.org/p/react/promise%247e9a22f891ff27b999e7dfe9533acb83b5f0ffe4d21798ce631197a071e8cc02.json
+[73.3MB/2.69s] Writing /home/wyrihaximus/.composer/cache/repo/https---packagist.org/provider-react$promise.json into cache
+[73.6MB/2.70s] Resolving dependencies through SAT
+[73.6MB/2.70s] Dependency resolution completed in 0.001 seconds
+[73.7MB/2.70s] Analyzed 84 packages to resolve dependencies
+[73.7MB/2.70s] Analyzed 72 rules to resolve dependencies
+[73.8MB/2.74s]   - Installing react/promise (v2.4.1)
+[74.0MB/2.75s]     Downloading
+[74.0MB/2.75s] Downloading https://api.github.com/repos/reactphp/promise/zipball/8025426794f1944de806618671d4fa476dc7626f
+[74.0MB/3.95s] Writing /home/wyrihaximus/.composer/cache/files/react/promise/764ab37a14ad3243cd129181ec32055389bfe6f5.zip into cache from /home/wyrihaximus/Projects/php-packagist-vs-phpclasses-performance/packagist/vendor/react/promise/c12dc5e5c76c025dc8f85f9cfdc77631
+[74.0MB/3.95s]     Extracting archive
+[74.0MB/3.95s] Executing command (CWD): unzip '/home/wyrihaximus/Projects/php-packagist-vs-phpclasses-performance/packagist/vendor/react/promise/c12dc5e5c76c025dc8f85f9cfdc77631' -d '/home/wyrihaximus/Projects/php-packagist-vs-phpclasses-performance/packagist/vendor/composer/7ced2c79' && chmod -R u+w '/home/wyrihaximus/Projects/php-packagist-vs-phpclasses-performance/packagist/vendor/composer/7ced2c79'
+[74.0MB/4.03s] 
+[74.0MB/4.03s]     REASON: Required by the root package: Install command rule (install react/promise v2.4.0|install react/promise v2.4.1)
+[74.0MB/4.03s] 
+[73.6MB/4.15s] Reading /home/wyrihaximus/Projects/php-packagist-vs-phpclasses-performance/packagist/vendor/composer/installed.json
+[73.6MB/4.15s] Writing lock file
+[73.6MB/4.15s] Generating autoload files
+[73.6MB/4.15s] Memory usage: 73.57MB (peak: 86.31MB), time: 4.15s
